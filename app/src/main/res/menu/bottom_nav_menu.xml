@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/anunciosFragment"
+        android:icon="@drawable/ic_announcement"
+        android:title="Anuncios" />
+    <item
+        android:id="@+id/becasFragment"
+        android:icon="@drawable/ic_scholarship"
+        android:title="Becas" />
+    <item
+        android:id="@+id/escuelaFragment"
+        android:icon="@drawable/ic_school"
+        android:title="Escuela" />
+    <item
+        android:id="@+id/capacitacionesFragment"
+        android:icon="@drawable/ic_capacitar"
+        android:title="Capacitaciones" />
+</menu>

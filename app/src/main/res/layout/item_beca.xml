@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageBeca"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample_beca" />
+
+        <TextView
+            android:id="@+id/tvTituloBeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título de la Beca"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvDescripcionBeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breve descripción de la beca"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

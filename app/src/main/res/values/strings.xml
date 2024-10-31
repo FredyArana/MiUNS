@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">APPUNS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="titulo_escuela">Escuela de Ingeniería de Sistemas</string>
+    <string name="titulo_mision">Misión</string>
+    <string name="detalle_mision">Formar profesionales competentes en el ámbito de la Ingeniería de Sistemas, comprometidos con el desarrollo de soluciones tecnológicas innovadoras.</string>
+    <string name="titulo_vision">Visión</string>
+    <string name="detalle_vision">Ser reconocidos como una comunidad académica de excelencia que contribuye al desarrollo sostenible y tecnológico del país.</string>
+    <string name="titulo_descripcion">Descripción</string>
+    <string name="detalle_descripcion">La Ingeniería de Sistemas se enfoca en desarrollar soluciones informáticas que mejoren procesos y optimicen recursos tecnológicos para resolver problemas complejos en diversos contextos.</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/anunciosFragment">
+
+    <fragment
+        android:id="@+id/anunciosFragment"
+        android:name="com.fredy.appuns.Anuncios.AnunciosFragment"
+        android:label="Anuncios"
+        tools:layout="@layout/fragment_anuncios" />
+
+    <fragment
+        android:id="@+id/becasFragment"
+        android:name="com.fredy.appuns.Becas.BecasFragment"
+        android:label="Becas"
+        tools:layout="@layout/fragment_becas" />
+
+    <fragment
+        android:id="@+id/escuelaFragment"
+        android:name="com.fredy.appuns.EscuelaFragment"
+        android:label="Escuela"
+        tools:layout="@layout/fragment_escuela" />
+
+    <fragment
+        android:id="@+id/capacitacionesFragment"
+        android:name="com.fredy.appuns.CapacitacionesFragment"
+        android:label="Capacitaciones"
+        tools:layout="@layout/fragment_capacitaciones" />
+</navigation>
